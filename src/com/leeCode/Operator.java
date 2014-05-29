@@ -13,7 +13,7 @@ public class Operator {
 		int result = 0;
 		int num1 = 0;
 		int num2 = 0;
-		Stack numSta = new Stack<Integer>();
+		Stack<Integer> numSta = new Stack<Integer>();
 		for (int i = 0; i < tokens.length; i++) {
 			if (tokens[i].equals("+") || tokens[i].equals("-") || tokens[i].equals("*")
 					|| tokens[i].equals("/")) {
@@ -56,7 +56,7 @@ public class Operator {
 				numSta.add(Integer.parseInt(tokens[i]));
 			}
 		}
-		return (int) numSta.peek();
+		return  numSta.peek();
 	}
 	public static void main(String args[]){
 		

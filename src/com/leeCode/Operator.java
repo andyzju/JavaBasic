@@ -1,13 +1,13 @@
-package com.leeCode;
+/*package com.leeCode;
 
 import java.util.Stack;
 
-/**
+*//**
  * equals and ==
  * make the same mistakes once again
  * @author Administrator
  *
- */
+ *//*
 public class Operator {
 	public int evalRPN(String[] tokens) {
 		int result = 0;
@@ -75,3 +75,4 @@ public class Operator {
 	}
 
 }
+*/

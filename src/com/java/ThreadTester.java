@@ -5,7 +5,6 @@ class ThreadTesterA implements Runnable {
 	  
     private int counter;  
   
-    @Override  
     public void run() {  
         while (counter <= 10) {  
             System.out.print("Counter = " + counter + " ");  
@@ -19,7 +18,6 @@ class ThreadTesterB implements Runnable {
   
     private int i;  
   
-    @Override  
     public void run() {  
         while (i <= 10) {  
             System.out.print("i = " + i + " ");  
